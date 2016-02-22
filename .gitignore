@@ -3,3 +3,4 @@ config.txt
 talismant.pyc
 deploy.sh
 modules/pymetar.pyc
+deploy.py
