@@ -13,11 +13,23 @@ For deploy this app to GAE, you need to use venv.
 Choise your project directory and run following commands:
 
 pip install virtualenv
+
+
 virtualenv venv
+
+
 . venv/bin/activate
+
+
 pip install Flask
+
+
 pip install python-telegram-bot
+
+
 pip install signal
+
+
 deactivate
 
 Before you run your app, get token for Telegram Bot (@botfather) and Google App Engine App ID, then create copy of file config-sample.txt, name it config.txt, fill your token and URL.
