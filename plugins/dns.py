@@ -1,4 +1,4 @@
-#===isnottalismanplugin===
+#===istalismanplugin===
 # -*- coding: utf-8 -*-
 
 #  Talisman plugin
