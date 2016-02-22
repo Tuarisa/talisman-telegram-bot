@@ -1,3 +1,5 @@
 config.txt
 /venv/*
 talismant.pyc
+deploy.sh
+modules/pymetar.pyc
