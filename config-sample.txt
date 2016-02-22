@@ -1,0 +1,7 @@
+# Talisman Telegram + GAE configuration
+
+{
+'TOKEN': 'TOKEN', #token by @BotFather (https://telegram.me/BotFather)
+'URL':'https://*****.appspot.com' #url google app engine
+
+} 
