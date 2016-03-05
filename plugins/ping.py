@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 def handler_ping(source,params=''):
-    reply(source,"Понг")
+    reply(source,"понг")
 
 def handler_sarcasm(source,params):
     reply(source,"http://images.derstandard.at/2014/06/05/sarcasm.jpg")

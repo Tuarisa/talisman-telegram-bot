@@ -39,7 +39,7 @@ def webhook_handler():
             text = update.message.text.encode('utf-8') + ' '
             command = parseCommand(text)
             text = text.decode('utf-8')
-            call_command_handlers(command.decode('utf-8'),update,(text.split(' ',1))[1])
+            call_command_handlers(command.decode('utf-8').lower(),update,(text.split(' ',1))[1])
         except:
             #reply(update,'something wrong')
             return 'not ok'
