@@ -1,4 +1,4 @@
-#===isnttalismanplugin===
+#===istalismanplugin===
 # -*- coding: utf-8 -*-
 
 sys.path.append(os.path.join(os.path.abspath('.'), 'modules','DANTSOVA'))
