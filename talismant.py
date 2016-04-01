@@ -25,7 +25,7 @@ try:
     fp.close()
 except:
     GENERAL_CONFIG['TOKEN'] = os.environ['TOKEN']
-    GENERAL_CONFIG['URL'] = os.environ['TOKEN']
+    GENERAL_CONFIG['URL'] = os.environ['URL']
 PLUGIN_DIR = 'plugins'
 COMMANDS = {}
 COMMAND_HANDLERS = {}
