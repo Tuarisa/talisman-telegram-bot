@@ -19,9 +19,13 @@ app = Flask(__name__)
 
 import threading
 GENERAL_CONFIG_FILE = 'config.txt'
-fp = open(GENERAL_CONFIG_FILE, 'r')
-GENERAL_CONFIG = eval(fp.read())
-fp.close()
+try:
+    fp = open(GENERAL_CONFIG_FILE, 'r')
+    GENERAL_CONFIG = eval(fp.read())
+    fp.close()
+except:
+    GENERAL_CONFIG['TOKEN'] = os.environ['TOKEN']
+    GENERAL_CONFIG['URL'] = os.environ['TOKEN']
 PLUGIN_DIR = 'plugins'
 COMMANDS = {}
 COMMAND_HANDLERS = {}
