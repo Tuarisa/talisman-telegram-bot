@@ -24,6 +24,7 @@ try:
     GENERAL_CONFIG = eval(fp.read())
     fp.close()
 except:
+    GENERAL_CONFIG = {}
     GENERAL_CONFIG['TOKEN'] = os.environ['TOKEN']
     GENERAL_CONFIG['URL'] = os.environ['URL']
 PLUGIN_DIR = 'plugins'
