@@ -1,6 +1,5 @@
 altgraph==0.10.1
 bdist-mpkg==0.4.4
-bonjour-py==0.3
 future==0.15.2
 ipython==0.13
 macholib==1.5
