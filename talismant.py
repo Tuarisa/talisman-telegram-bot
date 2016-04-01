@@ -116,6 +116,12 @@ def reply(source,text):
         return
     bot.sendMessage(chat_id=chat_id,text=text)
 
+def msg(chat_id, text):
+    if (chat_id=='dbg'):
+        DebugObj.sendMessage(chat_id, text)
+        return
+    bot.sendMessage(chat_id=chat_id,text=text)
+
 def parseCommand(text):
     command = (text.split(' '))[0]
     if command[0]=='/':
