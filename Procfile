@@ -1,1 +1,1 @@
-web: gunicorn talismant.py:app --log-file -
+web: gunicorn talismant:app --log-file -
