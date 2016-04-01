@@ -1,0 +1,1 @@
+web: gunicorn talismant.py:app --log-file -

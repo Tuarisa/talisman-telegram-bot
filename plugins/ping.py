@@ -11,7 +11,7 @@ def handler_git(source,params):
     if (params.strip()==u'боль'):
         reply(source,"Доооо")
     elif (params.strip()==u'няшка'):
-        reply(source,"Неееееет")
+        reply(source,"Ага")
 
 register_command_handler(handler_ping, 'пинг', ['инфо','мук','все'], 0, 'Пингует тебя или определённый ник или сервер.', 'пинг [ник]', ['пинг guy','пинг jabber.aq'])
 register_command_handler(handler_sarcasm, 'сарказм', ['инфо','мук','все'], 0, 'Самая важная команда', 'сарказм', ['сарказм','пинг'])
