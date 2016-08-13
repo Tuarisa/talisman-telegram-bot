@@ -46,7 +46,7 @@ def test(message):
     all_text_by_c = dict()
     for c in [8, 10, 12, 20]:
         text = make_acrotext(platform, message, c=c, correct_alphabet=CORRECT_ALPHABET)
-
+        print text
         print u"return text. c=@c@ message='@m@'::"\
             .replace(u'@c@', str(c))\
             .replace(u'@m@', message)
@@ -63,7 +63,7 @@ def test(message):
 ##############
 if __name__ == '__main__':
     # Please, enter message here.
-    message = u'глокая куздра штеко будланула бокра и кудрячит бокрёнка'
+    message = u'я тебя люблю'
 
     begin = datetime.datetime.now()
     print "Stego.test() begin" + str(begin)
