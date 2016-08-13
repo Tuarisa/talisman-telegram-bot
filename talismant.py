@@ -182,7 +182,3 @@ class Struct:
 ##### Start Code #######
 DebugObj = Dbgtal()
 load_plugins()
-
-if __name__ == '__main__':
-    set_webhook()
-    app.run(host='0.0.0.0', port=4500)
